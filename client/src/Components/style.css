@@ -1,0 +1,1043 @@
+
+
+.logincontent{
+    position: absolute;
+    background-color: #93EDC7;
+    top: 15%;
+    left:10%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 2s;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    overflow: auto;
+
+
+
+}
+.logincontentadminstdc{
+    /* position: absolute;
+    background-color: black;
+    /* background-color: rgb(133, 226, 124); 
+    top: 100px;
+    left:17%;
+    width: 60%;
+    height: 80%;
+    right:20%;
+    display: flex;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:none;
+    transition: all 2s; */
+
+    position: absolute;
+    background-color: grey;
+    top: 20px;
+    left:16%;
+    width: 70%;
+    height: 80%;
+    display: flex;
+    display: none;
+
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 2s;
+
+
+}
+
+.logincontentadminteacher{
+    position: absolute;
+    background-color: rgb(133, 226, 124);
+    top: 58%;
+    left:18%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+    transition: all 2s;
+
+}
+.logincontent2{
+    position: absolute;
+    background-color: grey;
+    top: 15%;
+    left:20%;
+    width: 70%;
+    height: 80%;
+    display: flex;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 2s;
+
+}
+.loginimage{
+    
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    background: url(../login.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 2%;
+    position: relative;
+    top: 15%;
+    transition: all 2s;
+
+    
+    
+
+}
+.loginforms{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: #93EDC7;
+    border-left:2px solid white;
+    overflow: auto;
+    transition: all 2s;
+    border-radius: 8px;
+    overflow: auto !important;
+    color: white;
+}
+.loginforms2{
+    width: 50%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    border-left:2px solid white;
+    overflow: auto;
+    transition: all 2s;
+}
+
+.inputsss{
+    width: 100%;
+}
+.resultcardview2{
+    top:250px !important;
+
+}
+
+@media only screen and (max-width:768px){
+    .logincontent{
+        top: 150px;
+        display: block;
+        float: none;
+        background-color: #93EDC7;
+        width: 80%;
+        height: auto;
+        margin: auto;
+
+    }
+    .dpimage{
+        height: 120% !important;
+        border: transparent !important;
+    }
+    .inputsss{
+        width: 80%;
+    }
+    .loginimage{
+        top: 10px;
+        width: 150px ;
+        margin: auto;
+        height: 100px;
+        bottom: 20px !important;
+
+    }
+    .loginforms{
+        text-align: center;
+        margin-left: 25%;
+        border-left: none;
+        overflow: visible;
+        height: auto;
+    }
+    .inputs,.inputs2{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        left: 0px;
+        font-size: small;
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+    
+    .inputs{
+        padding-left: 0px !important;
+        left: 0px;
+        margin-left: 0px !important;
+    }
+    .inputsn{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        left: 0px;
+        font-size: small;
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+        padding-left: 0px !important;
+        left: 0px;
+        margin-left: 0px !important;
+    }
+    .adminstudent{
+        margin-left: 0% !important;
+        margin: 0% !important;
+        left: 5%;
+        right: 5%;
+        top: 100px  !important;
+        width: 90% !important;
+        font-size: 50% !important;
+    }
+    .adminstdcred{
+        font-size: 30% !important;
+    }
+    .logincontentadminstdc{
+        /* background-color: aliceblue !important;
+        height: 40%;
+        width: 80%;
+        top: 150px;
+        left: 5%;
+        margin-left: 0%;
+        right: 0%; 
+        margin-bottom: 20% !important; */
+
+        left: 1%;
+        top: 150px !important;
+        width: 80%;
+        right: 10%;
+        height: 38%;
+        /* display: block !important; */
+    }
+    
+    .registerimage{
+        /* float: none !important;
+        clear: both !important;
+        top: 5% !important;
+        width: 80% !important;
+        left: 0%;
+        right: 10%; */
+        margin:0% !important;
+        overflow: auto !important;
+        top: 0% !important;
+        margin-left: auto !important;
+        margin-top: auto !important;
+        margin-bottom: auto !important;
+        margin-right: auto !important;
+        height: 110% !important;
+        width: 50% !important;
+
+    }
+    
+    .loginforms , .loginforms2{
+        display: block !important;
+        float: none !important; 
+        width: 100%;
+        left: 0%;
+        margin-left: 0%;
+        height: auto !important;
+        padding-bottom: 20px;
+        background-color: #93EDC7;
+    }
+    .forms2 ,.forms3{
+        top: 210px !important;
+        width: 85% !important;
+        left: 0px !important;
+        margin-left: 12% !important;
+        margin-right: 5% !important;
+    }
+    .resultcardview{
+
+        top: 50% !important;
+        left: 15% !important;
+        right: 15% !important;
+
+
+    }
+    .snd{
+        top: 200px !important;
+    }
+    .updatecardview{
+        width: 80% !important;
+        top: 50% !important;
+        left: 10% !important;
+        right: 10% !important;
+    }
+    .bodys{
+        width: auto !important;
+        left: 1% !important;
+        right: 1% !important;
+        overflow: auto !important;
+
+        /* background-color: blue !important; */
+
+    }
+    .forms22{
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+        width: 90% !important;
+    }
+    .resultcardview2{
+        top: 200px !important;
+    }
+    .logincontent2{
+        left: 10%;
+        width: 80%;
+        right: 10%;
+        height: 38%;
+        display: block !important;
+        overflow: unset;
+
+    }
+    .registerimage2{
+        margin:0% !important;
+        overflow: auto !important;
+        top: 0% !important;
+        margin-left: auto !important;
+        margin-top: auto !important;
+        margin-bottom: auto !important;
+        margin-right: auto !important;
+        height: 110% !important;
+        width: 50% !important;
+    }
+    .loginforms{
+        overflow: auto !important;
+        display: block !important;
+    }
+}
+@media only screen and (max-width:600px){
+    .registerimage2{
+        top: 10% !important;
+    }
+    .registerimage{
+        top: 10% !important;
+    }
+}
+
+@media only screen and (max-width:480px){
+    .searchtext,.searchtexts,.searchbtn{
+        float: none !important;
+        display: block !important; 
+        margin:2% !important;
+        height: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .forms2 , .forms3 , .forms2f{
+        width: 100% !important;
+        margin: 0% !important;
+        /* background-color: aqua; */
+        height: auto !important;
+    }
+    .forms2f{
+        width: 100% !important;
+        margin: 0% !important;
+        background-color: aqua;
+        height: auto !important;
+    }
+    
+    .searchtext{
+        width: 90% !important;
+        font-size: 100% !important;
+    }
+    .searchtexts{
+        text-align: center;
+        width: 30% !important;
+    }
+    
+    .resultcardview ,.updatecardview {
+        top: 370px !important;
+    }
+    .snd{
+        
+        top: 250px !important;
+    }
+    .resultcardview2{
+        top: 250px !important;
+    }
+    .registerimage2{
+        height: 110% !important;
+        width: 80% !important;
+    }
+    .registerimage{
+        height: 110% !important;
+        width: 80% !important;
+    }
+    
+}
+@media only screen and (max-width:250px){
+    .logincontent2{
+        height: 150px !important;
+        overflow: unset;
+    }
+    .logincontentadminstdc{
+        height: 170px !important;
+    }
+    .registerimage2{
+        top: 15% !important;
+        height: 180px !important;
+        width: 100%;
+    }
+    .registerimage{
+        top: 15% !important;
+        height: 180px !important;
+        width: 100%;
+    }
+    
+}
+@media only screen and (max-width:200px){
+    .registerimage2{
+        top: 0% !important;
+        top: 20% !important;
+        height: 150px !important;
+        width: 100%;
+    }
+    .logincontent2 , .logincontentadminstdc{
+        height: 120px !important;
+        overflow: unset;
+    }
+    .registerimage{
+        top: 0% !important;
+        top: 20% !important;
+        height: 150px !important;
+        width: 100%;
+    }
+}
+.headertext{
+    color: white;
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+    margin-top: 5%;
+    font-size: larger;
+}
+.inputs, .inputsbtn{
+    display: block;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    color: gray;
+    outline: none;
+    border: none;
+    transition: all 0.3s;
+}
+.inputs{
+    position: relative;
+    width: 100%;
+    padding: 0%;
+    text-align: center;
+
+}
+.inputsn{
+    display: block;
+    padding: 1%;
+    width: 80%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    color: gray;
+    outline: none;
+    border: none;
+    transition: all 0.3s;
+    background-color: blanchedalmond !important;
+    
+
+}
+
+.inputs2{
+    width: 60%;
+    display: block;
+    padding: 1%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    color: gray;
+    outline: none;
+    border: none;
+    transition: all 0.3s;
+}
+.inputsbtn{
+    background-color:beige;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+.inputsbtn:hover{
+    background-color:rgb(181, 181, 255);
+    color: white;
+}
+.inputs:hover,.inputs2:hover ,.inputsbtn:hover , .inputsn:focus{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.registerimage{
+    /* width: 50%;
+    height: 100%;
+    /* background-color: cyan; 
+    background: url(../register.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 30%; */
+
+    width: 50%;
+    height: 85%;
+    background-color: cyan;
+    background: url(../register.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 2%;
+    position: relative;
+    top: 15%;
+
+}
+
+.registerimage2{
+    width: 50%;
+    height: 100%;
+    background-color: cyan;
+    background: url(../myaccount.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 2%;
+    position: relative;
+    top: 15%;
+}
+.institutename{
+    position: absolute;
+    width: 40%;
+    height: auto;
+    margin-top: 25px;
+    font-size: 120%;
+    margin-left: 30%;
+    font-weight:normal;
+    /* background-color: green; */
+    text-align: center;
+    color: white;
+}
+.hamburgersss{
+    position: absolute;
+    margin: 2%;
+    padding-top: 15px;
+   display: none;
+}
+.mainmenulogo{
+    
+    background-color: black;
+    width: 25px;
+    height:3px;
+    margin:4px 0px;
+}
+
+
+.mainmenu{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color:   #91EAE4;
+    /* #93EDC7 */
+    /* background-image: linear-gradient(to bottom, #86A8E7, #91EAE4); */
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+    display: block;
+    transition-property: width;
+    transition-duration: 1s;
+    z-index: 2;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+
+
+}
+
+
+
+@media only screen and (max-width:768px){
+    .hamburgersss{
+        display: block;
+    }
+    .mainmenu{
+        width:0px;
+
+    }
+    .institutename{
+        margin-left: 35%;
+    }
+    .cardview{
+        font-size: 50% !important;
+
+    }
+    
+    .closersss{
+        display: block !important;
+    }
+    
+    .backgroundimg{
+        width: 70% !important;
+        left: 15% !important;
+        
+
+    }
+    .createquizblock{
+        width: 80% !important;
+        margin-left: 0% !important;
+        left: 10% !important;
+        right: 10% !important;
+
+    }
+    
+    
+}
+.dpimagebackground{
+    position: relative;
+    width: 100%;
+    height: 20%;
+    /* background-color:#313037; */
+}
+.closersss{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    float: right;
+    background-color: red;
+    display: none;
+    z-index: 2;
+}
+.firstsss{
+    margin: 0%;
+    width: 100px;
+    height: 5px;
+    background-color: black !important;
+    
+}
+.s2{
+    margin-top: 50px;
+    transform: rotate(90deg);
+}
+.s3{
+    transform: rotate(-45deg);
+}
+
+
+.dpimage{
+    position: absolute;
+    width: 100%;
+    height: 130%;
+    outline:none !important;
+    border: none;
+    
+    background:url('../personal_data.svg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    /* border-radius: 50%; */
+    margin-left:0%;
+    /* margin-top: 25%; */
+    /* box-shadow:  0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    /* border: 2px solid black; */
+}
+
+.contents{
+    padding: 10% 0%;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: grey;
+    transition:  all 0.3s;
+}
+.contents:hover{
+    background-color: rgb(197, 196, 196);
+    cursor: pointer;
+}
+.usernamecontent{
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    font-size: larger;
+}
+.forms{
+    position: absolute;
+    /* background-color: grey; */
+    margin-top:12%;
+    margin-left: 27%;
+    display: flex;
+    width: 70%;
+    height: 7%;
+}
+.forms22{
+    position: absolute;
+    top: 150px;
+    width:70%;
+    margin-left: 20%;
+
+}
+.formsf{
+    position: absolute;
+    /* background-color: grey; */
+    margin-top:22%;
+    margin-left: 27%;
+    display: flex;
+    width: 70%;
+    height: 7%;
+    display: none;
+}
+.forms2 , .forms3 {
+    position: absolute;
+    /* background-color: grey; */
+    top:250px;
+    margin-left: 25%;
+    display: none;
+    width: 70%;
+    height: 7%;
+    
+}
+.forms2f{
+    position: absolute;
+    /* background-color: grey; */
+    top:250px;
+    margin-left: 25%;
+    display: none;
+    width: 70%;
+    height: auto;
+}
+
+.searchtext{
+    position: relative;
+    width: 60%;
+    height:60%;
+    font-size:  large;
+    outline: none;
+    border: none;
+    box-shadow:  0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.searchbtn{
+    position: relative;
+    margin-left:2%;
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 2%;
+    transition: all 0.3s;
+}
+.searchbtn:hover{
+    box-shadow:  0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+/* .containers{
+    /* position: absolute; 
+
+} */
+.adminstudent{
+    position:absolute;
+    width: 70%;
+    margin-left: 18%;
+    margin-top: 80px;
+    
+}
+.adminstudent > p{
+    text-align: center;
+    font-size: larger;
+
+}
+.adminstdcred{
+    top: 5px;
+    position: relative;
+    width: 100%;
+    left: 10%;
+}
+/* .adminstdcred p{
+    position: relative;
+    text-align: center;
+    margin: 1%;
+
+} */
+
+.cardview{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    /* background-color: indianred; */
+    font-size: 100%;
+    display: inline-block;
+    margin: 1%;
+    outline: none;
+    border: none;
+    box-shadow:  0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    border: 2px solid rgb(133, 226, 124);
+    justify-content:center;
+    transition: all 0.5s;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+.cardview:hover{
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+.institutename::first-letter{
+    text-transform: capitalize;
+}
+.dpimage2{
+    position: relative;
+    width: 40%;
+    height: 40%;
+    background:url('../myaccount.svg');
+    background-repeat: no-repeat;
+    background-size:180%;
+    border-radius: 100%;
+    margin-left:30%;
+    
+    box-shadow:  0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid black;
+}
+.backgroundimg{
+    position: absolute;
+    width: 30%;
+    height: 60%;
+    background: url(../plan.svg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    top: 50%;
+    left: 35%;
+}
+.createquizblock{
+    position:absolute;
+    width: 75%;
+    background-color: white;
+    top: 270px;
+    left: 20%;
+    border-radius: 20px;
+    box-shadow:  0 0px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+    display: none;
+}
+.inputs3{
+    position: relative;
+    width: 80%;
+    height: 40px;
+    margin: 1%;
+}
+
+.btnsa{
+    position: relative;
+    
+}
+.spotlight{
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    width: 70%;
+    min-height: 60%;
+    background-color: white;
+    box-shadow:  0 0px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+
+}
+.spotlgttext{
+    position: relative;
+    margin-left: 35% !important;
+    margin: 4%;
+
+
+}
+.bodys{
+    position: absolute;
+    top: 20%;
+    width: 80%;
+    height: auto;
+    left: 18%;
+}
+.cardsforquiz{
+    position: relative;
+    top:2%;
+    width: 200px;
+    height:200px;
+    background-color: #556270;
+    box-shadow:  0 0px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:10px ;
+    float: left;
+    margin: 2%;
+    color: white;
+    /* background-color: blue !important; */
+}
+.inputsbtnn{
+
+    background-color: #93EDC7;
+    outline:none;
+    border: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 5%;
+    margin-left: -30px;
+    width: 90% ;
+    height: auto;
+    border-radius: 5px;
+    padding: 5%;
+
+}
+
+  
+.tables {
+    width: 100%;
+    text-align: left !important;
+}
+.ths{
+    width: 10%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+.ths,.tds{
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.throws{
+    background-color: #93EDC7;
+}
+.tdrows{
+    background-color: white;
+}
+
+
+.cardtexts{
+    color: white;
+    margin: 2%;
+    /* text-align: center; */
+
+}
+.cardalign{
+    float: left;
+    margin: 5%;
+    font-size: 200%;
+
+}
+.resultcardview{
+    position: absolute;
+    top: 350px;
+    left: 20%;
+    width: 70%;
+    background-color: white;
+    display: none;
+    overflow: auto;
+
+}
+.snd{
+    top: 200px ;
+}
+
+.insideresult{
+    position: relative;
+    width: 35%;
+    /* margin:0% 5% 0% 5%; */
+    font-weight: lighter;
+    font-size: large;
+    text-align: center;
+    margin: 10%;
+
+}
+@media only screen and (max-width:984px){
+    .closersss{
+        display: inline !important;
+    }
+    
+}
+.updatecardview{
+    position: absolute;
+    top: 350px;
+    left: 20%;
+    width: 70%;
+    /* min-width: 500px; */
+    background-color: white;
+    /* display: block; */
+    display: none;
+    overflow: auto;
+    
+
+}
+.quiznameheader{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background-color: white; */
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-size: xx-large;
+    margin-top: 2%;
+}
+.timeleft{
+    float: right;
+    margin:2%;
+}
+.notesforquiz{
+    position: relative;
+    /* background-color: white; */
+}
+.notesforquiztext{
+    margin: 2%;
+    font-size: medium;
+}
+.perquestions{
+    margin: 2%;
+    margin-left: 10%;
+}
+.addsectionpart{
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    width: 60%;
+    height: auto;
+    padding: 5%;
+    /* background-color: #83a4d4; */
+}
+.addsection{
+    position: relative;
+    text-align: center;
+    /* align-tracks: center; */
+}
+.inputdepartmentclass{
+    display: none;
+    position: relative;
+    text-align: center;
+    margin: 5%;
+}
+.addfordepartmentcls{
+    display: none;
+}
+@media only screen and (max-width:480px){
+    .spotlgttext{
+        margin-left: 25% !important;
+    }
+}
+@media only screen and (max-width:440px){
+    
+    .bodys{
+        width: auto !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .spotlgttext{
+    margin-bottom: 10% !important;
+    }
+    .institutename{
+        margin-left: 25%;
+        margin-top: 7%;
+    }
+    .cardsforquiz{
+        width: 100% !important;
+        height: auto !important;
+        margin: 1% !important;
+    }
+    
+    
+}

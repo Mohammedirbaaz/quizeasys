@@ -1,0 +1,197 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: rgb(171, 171, 204);
+}
+.headerareas{
+  width: 100%;
+  height: 70px;
+  background-color: #93EDC7;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.headerlogo{
+  position: relative;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: larger;
+  text-decoration: none;
+
+}
+.headercontent , .headercontentm{
+  position: relative;
+  float: right;
+  margin: 10px;
+  margin-left: 0%;
+  margin-right: 10px;
+  padding: 10px;
+  transition: all 0.5s;
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+.smallheader{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  padding-bottom: 100%;
+  background-color: gray;
+  font-family:Arial, Helvetica, sans-serif;
+  display: none;
+  transition: all 2s;
+  margin-top: 14%;
+  z-index: 1;
+
+
+}
+
+.smallcontent{
+  position: relative;
+  display: block;
+  text-align: center;
+  font-size: 120%;
+  text-decoration: none;
+  color: white;
+  padding-top: 40px;
+  height: auto;
+}
+
+.hamburgers{
+ position: relative;
+ width: 30px;
+ height:35px;
+ float:right;
+ margin-right: 5%;
+ top: 20px;
+ transition:  all 2s;
+}
+
+.liness{
+  width: 100%;
+  height: 10%;
+  margin-top: 15%;
+  background-color: white;
+}
+
+.closer{
+  position: relative;
+  width: 30px;
+  height:30px;
+  float:right;
+  top: 20px;
+  margin-right: 5%;
+  display: none;
+}
+.l2{
+  width: 100%;
+  height: 10%;
+  background-color: white;
+}
+.liness1{
+  margin-top: 20%;
+  transform: rotate(45deg);
+}
+.liness2{
+  transform: rotate(-45deg);
+}
+@media only screen and (max-width:376px){
+.smallheader{
+  top: 15px;
+}
+.maincontent{
+  font-size: 50% !important;
+}
+.headercontent{
+  display: none !important;
+}
+}
+
+@media only screen and (max-width:768px){
+  
+  .hamburgers{
+    display: block;
+  }
+  .maincontent{
+    float: none !important;
+    width: 80% !important;
+    top: 100px !important;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    font-size: 120% !important;
+  }
+  .secondmaincontent{
+    display: block;
+    float: none !important;
+    margin-top: 10px !important;
+    width: 80% !important;
+    margin-left: 5%;
+    margin-right: 5%;
+    top:10px !important;
+    margin-bottom: 0% !important;
+    bottom: 0% !important;
+
+  }
+  .headercontent{
+    display: none !important;
+  }
+}
+@media only screen and (min-width:768px){
+  .hamburgers{
+    display: none;
+  }
+  
+  
+}
+
+
+@media only screen and (max-width:950px){
+  .secondmaincontent{
+    top:100px;
+  }
+}
+
+.maincontent{
+  float: left;
+  position: relative;
+  top: 200px;
+  color: white;
+  font-size: 130%;
+  height: 300px;
+  width: 40%;
+  left: 5%;
+  right: 5%;
+
+}
+.secondmaincontent{
+  float: left;
+  position: relative;
+  margin-top:120px;
+  width: 50%;
+  height: 300px;
+  background: url(../src/exam.svg);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  right: 5%;
+  left: 5%;
+
+}
+
+
+
+
+.headercontent:hover{
+  background-color:rgb(153, 243, 145);
+}
+.login{
+  position: relative;
+  width: 80%;
+  height: 80%;
+  background-color: burlywood;
+  
+}
